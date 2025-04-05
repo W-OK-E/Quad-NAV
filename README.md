@@ -10,6 +10,7 @@ mkdir -p ~/Quad-NAV/src
 cd ~/Quad-NAV/src
 git clone https://github.com/anujjain-dev/unitree-go2-ros2.git
 rosdep install --from-paths src --ignore-src -r -y
+```
 
 sudo apt install ros-humble-gazebo-ros2-control
 sudo apt install ros-humble-xacro
