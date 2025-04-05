@@ -1,5 +1,5 @@
 # Instructions for Quad-NAV
-### Run the following Commands
+### Run the following Commands to set up the environment
 
 ```bash
 
@@ -22,3 +22,8 @@ colcon build
 
 cd src/
 rm -rf unitree-go2-ros2.git
+git clone https://github.com/W-OK-E/Quad-NAV.git
+cd ..
+rm -rf build/ install/ log/
+colcon build
+source install/setup.bash
