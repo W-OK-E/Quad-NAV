@@ -1,6 +1,6 @@
-# Quad-NAV
+# Instructions for Quad-NAV
 ### Install the required ROS Dependencies
-
+- Installed sudo apt install ros-humble-gazebo-ros2-control
 ```bash
 sudo apt install ros-humble-gazebo-ros2-control
 sudo apt install ros-humble-xacro
