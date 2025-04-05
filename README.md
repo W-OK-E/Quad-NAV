@@ -19,7 +19,7 @@ cd ~/Quad-NAV/
 colcon build
 
 cd src/
-rm -rf unitree-go2-ros2.git
+rm -rf unitree-go2-ros2
 git clone https://github.com/W-OK-E/Quad-NAV.git
 cd ..
 rm -rf build/ install/ log/
